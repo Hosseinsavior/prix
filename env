@@ -1,6 +1,13 @@
 SUDO_USERNAME = "admin44"
 SUDO_PASSWORD = "admin44"
 
+UVICORN_HOST = "0.0.0.0"
+UVICORN_PORT = 8000
+
+XRAY_JSON = "xray.json"
+XRAY_EXECUTABLE_PATH = "/usr/local/bin/xray"
+XRAY_ASSETS_PATH = "/usr/local/share/xray"
+
  XRAY_HOSTS = "
  Fast-VPN Domain@onrender.com
  Fast-VPN IP@192.168.1.1
